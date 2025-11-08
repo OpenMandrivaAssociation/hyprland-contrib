@@ -4,7 +4,7 @@
 %define date 20251108
 
 Name:           hyprland-contrib
-Version:        1.1%{?bumpver:^%{bumpver}.%{date}
+Version:        1.1~%{bumpver}.%{date}
 Release:        1
 Summary:        Community scripts and utilities for Hypr projects
 BuildArch:      noarch
