@@ -1,9 +1,10 @@
-%global commit0 04721247f417256ca96acf28cdfe946cf1006263
+%global commit0 32e1a75b65553daefb419f0906ce19e04815aa3a
 %global shortcommit0 %(c=%{commit0}; echo ${c:0:7})
-%global bumpver 2
+%global bumpver 3
+%define date 20251108
 
 Name:           hyprland-contrib
-Version:        1.1%{?bumpver:^%{bumpver}.git%{shortcommit0}}
+Version:        1.1%{?bumpver:^%{bumpver}.%{date}
 Release:        1
 Summary:        Community scripts and utilities for Hypr projects
 BuildArch:      noarch
